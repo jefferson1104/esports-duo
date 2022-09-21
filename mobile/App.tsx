@@ -1,24 +1,15 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { StatusBar } from 'react-native';
+
+import { Background } from './src/components/Background';
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text style={styles.title}>Hello React Native</Text>
-      <StatusBar style="auto" translucent />
-    </View>
+    <Background>
+      <StatusBar 
+        barStyle="light-content"
+        backgroundColor="transparent"
+        translucent
+      />
+    </Background>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#1a1a1b',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-  title: {
-    color: '#ffffff',
-    fontSize: 22
-  }
-});
