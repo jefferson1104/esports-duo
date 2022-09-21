@@ -23,3 +23,12 @@ Agora no arquivo **tsconfig.json** faça algumas alterações:
 - Troque `// "rootDir": "./",` por `"rootDir": "./src",`
 - Troque `// "outDir": "./",` por `"outDir": "./build",`
 - Troque `// "moduleResolution": "node",` por `"moduleResolution": "node"`,
+
+### PROJECT
+```bash
+# start api
+$ npm run dev
+
+# build api
+$ npm run build
+```
