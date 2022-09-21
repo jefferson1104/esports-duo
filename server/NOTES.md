@@ -24,6 +24,22 @@ Agora no arquivo **tsconfig.json** faça algumas alterações:
 - Troque `// "outDir": "./",` por `"outDir": "./build",`
 - Troque `// "moduleResolution": "node",` por `"moduleResolution": "node"`,
 
+### INSTALL PRISMA
+```bash
+# install prisma
+$ npm install -D prisma
+
+# Init prisma using sqlite provider in this example
+$ npx prisma init --datasource-provider SQLite
+
+# Create migration
+$ npx prisma migrate NAME_MIGRATION
+
+# Navigate in your database
+$ npx prisma studio
+```
+
+
 ### PROJECT
 ```bash
 # start api
