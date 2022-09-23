@@ -45,7 +45,7 @@ export function DuoCard({ data, onConnect }: Props) {
         colorValue={data.useVoiceChannel ? THEME.COLORS.SUCCESS : THEME.COLORS.ALERT}
       />
 
-      <TouchableOpacity style={styles.button} onConnect={onConnect}>
+      <TouchableOpacity style={styles.button} onPress={onConnect}>
         <GameController color={THEME.COLORS.TEXT} size={20} />
         <Text style={styles.buttonTitle}>
           Conectar
