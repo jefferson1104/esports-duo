@@ -14,7 +14,7 @@
 API of our esports-duo project, at the base of its development we used typescript, node.js and the express.js framework, this api is responsible for reading and writing data in a SQL database, for this project we used the SQLite but it is possible to change and use another database.
 
 
-#### Main technologies
+### Main technologies
 - [TypeScript](https://www.typescriptlang.org/docs/)
 - [Node.js](https://nodejs.org/en/)
 - [Express.js](https://expressjs.com/)
@@ -22,7 +22,7 @@ API of our esports-duo project, at the base of its development we used typescrip
 - [SQLite](https://www.sqlite.org/index.html)
 
 
-#### Run this project
+### Run this project
 ```bash
 # clone this project
 $ git clone https://github.com/jefferson1104/esports-duo.git
@@ -43,7 +43,7 @@ $ npx prisma studio
 $ npm run dev
 ```
 
-#### Endpoints
+### Endpoints
 **Create game** - `POST` /games/{game_id}/ads</br>
 **List ads by game** - `GET` /games/{game_id}/ads</br>
 **Get discord by ad** - `GET` /ads/{ad_id}/discord</br>
