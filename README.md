@@ -22,7 +22,8 @@ See the details on how to run this project in each of your repositories, you nee
 <div>
   <img src="./mobile/assets/screenshots/screenshots-03.png" width="200"/>
   <img src="./mobile/assets/screenshots/screenshots-04.png" width="200"/>
+  <img src="./mobile/assets/screenshots/screenshots-05.png" width="200"/>
+  <img src="./mobile/assets/screenshots/screenshots-06.png" width="200"/>
 </div>
 
-<img src="./mobile/assets/screenshots/screenshots-05.png" width="200"/>
-<img src="./mobile/assets/screenshots/screenshots-06.png" width="200"/>
+
