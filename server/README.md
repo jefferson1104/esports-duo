@@ -44,7 +44,7 @@ $ npm run dev
 ```
 
 #### Endpoints
-**Create game** - `POST` /games/{game_id}/ads
-**List ads by game** - `GET` /games/{game_id}/ads
-**Get discord by ad** - `GET` /ads/{ad_id}/discord
+**Create game** - `POST` /games/{game_id}/ads</br>
+**List ads by game** - `GET` /games/{game_id}/ads</br>
+**Get discord by ad** - `GET` /ads/{ad_id}/discord</br>
 **List games** - `GET` /games
